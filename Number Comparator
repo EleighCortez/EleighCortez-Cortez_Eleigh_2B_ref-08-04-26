@@ -1,0 +1,14 @@
+class Compare:
+    def compare(self):
+        num1 = int(input("Please enter your first number: "))
+        num2 = int(input("Please enter your second number: "))
+
+        if num1 > num2:
+            print(f"The Highest numnber is: {num1}")
+        elif num2 > num1:
+            print(f"The Highest number is: {num2}")
+        else:
+            print("Both numbers are equal")
+
+com = Compare()
+com.compare()
