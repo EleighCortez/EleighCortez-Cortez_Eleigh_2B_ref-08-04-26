@@ -1,0 +1,11 @@
+name=str("Eleigh")
+print(name)
+
+age=int("20")
+print(age)
+
+pounds=float("264.555")
+print(pounds)
+
+bool=True
+print(bool)
